@@ -86,6 +86,9 @@ section {
   text-decoration: none;
   color: var(--primary-text);
   transition: color 0.25s ease-in;
+  display: flex; /* Align items inline */
+  align-items: center; /* Center items vertically */
+  justify-content: center;
 }
 
 .nav-logo:hover {
@@ -600,7 +603,9 @@ a {
   }
 
   .nav-logo {
+    display: inline-block; /* or 'flex' */
     margin-right: 0;
+    white-space: nowrap;
   }
 
   section {
