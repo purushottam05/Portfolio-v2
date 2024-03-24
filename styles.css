@@ -642,7 +642,7 @@ a {
     width: calc(100vw-2rem);
     max-width: 90vw;
     height: 67vw;
-    max-height: 45px;
+    max-height: 450px;
     margin: 0 auto;
   }
 
