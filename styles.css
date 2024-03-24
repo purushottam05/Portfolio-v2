@@ -11,29 +11,7 @@
   --tertiary-text: #7f8ea3;
 
   --shadow-color: rgba(0, 0, 0, 0.9);
-
-  /* --primary-bg: #ffffff;
-  --secondary-bg: #f3f4f6;
-  --hover-bg: #ffffff;
-
-  --primary-text: #000000;
-  --secondary-text: #2d3748;
-  --tertiary-text: #5f6c80;
-
-  --shadow-color: rgba(0, 0, 0, 0.2); */
 }
-
-/* [data-theme="dark"] {
-  --primary-bg: #111827;
-  --secondary-bg: #1f2937;
-  --hover-bg: #1f2937;
-
-  --primary-text: #ffffff;
-  --secondary-text: #cbd5e0;
-  --tertiary-text: #7f8ea3;
-
-  --shadow-color: rgba(0, 0, 0, 0.9);
-} */
 
 html {
   scroll-behavior: smooth;
@@ -74,7 +52,7 @@ section {
   position: sticky;
   top: 0;
   z-index: 10; 
-  /* background-color: rgba(45, 203, 208, 0.5); */
+  
   background-color: #111827 ;
   
   
@@ -86,8 +64,8 @@ section {
   text-decoration: none;
   color: var(--primary-text);
   transition: color 0.25s ease-in;
-  display: flex; /* Align items inline */
-  align-items: center; /* Center items vertically */
+  display: flex; 
+  align-items: center; 
   justify-content: center;
 }
 
@@ -603,7 +581,7 @@ a {
   }
 
   .nav-logo {
-    display: inline-block; /* or 'flex' */
+    display: inline-block; 
     margin-right: 0;
     white-space: nowrap;
   }
